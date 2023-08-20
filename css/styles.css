@@ -1,0 +1,68 @@
+
+#wrapper {
+    margin: 0 auto;
+    background: green;
+    width:1500px;
+}
+
+#main-large-picture {
+    width: 800px;
+    float:right;
+    height: 500px;
+    background: aqua;
+}
+
+#resume-title {
+    width: 700px;
+    float:left;
+    background: burlywood;
+    height: 100px;
+    text-align: center;
+}
+
+#side-content {
+    width:150px;
+    float:left;
+    background: cadetblue;
+    height: 400px;
+}
+
+#main-content {
+    width: 550px;
+    float:left;
+    background: darkkhaki;
+    height:400px;
+}
+
+#small-profile-picture {
+    width:150px;
+    height: 150px;
+    background: #b977d4;
+}
+
+#contact-section {
+    width:150px;
+    height: 250px;
+    background: brown;
+}
+
+#profile-section, #skills-section, #experience-section {
+    width: 550px;
+    height: 133px;
+    text-align: right;
+}
+
+#profile-section {
+    background: cornsilk;
+    text-align: center;
+}
+
+#skills-section {
+    background: chartreuse;
+}
+
+#experience-section {
+    background: crimson;
+}
+
+
