@@ -1,3 +1,7 @@
+body {
+   font-family: "American Typewriter";
+}
+
 
 #wrapper {
     margin: 0 auto;
@@ -6,63 +10,114 @@
 }
 
 #main-large-picture {
-    width: 800px;
+    width: 600px;
     float:right;
     height: 500px;
     background: aqua;
 }
 
+#main-large-picture img {
+  width:600px;
+}
+
 #resume-title {
-    width: 700px;
+    width: 900px;
     float:left;
     background: burlywood;
-    height: 100px;
+    /*height: 100px;*/
     text-align: center;
+}
+
+#resume-title h1 {
+    font-size: 26px;
+    color: brown;
+}
+
+#resume-title h2 {
+    font-size: 20px;
+    color: white;
 }
 
 #side-content {
-    width:150px;
+    width:240px;
     float:left;
-    background: cadetblue;
-    height: 400px;
+    background: lightgray;
 }
 
 #main-content {
-    width: 550px;
+    width: 630px;
     float:left;
-    background: darkkhaki;
-    height:400px;
+    /*background: darkkhaki;*/
+    min-height:400px;
+    padding:10px;
 }
 
 #small-profile-picture {
-    width:150px;
-    height: 150px;
-    background: #b977d4;
+    width:240px;
+    text-align: center;
+    padding-top:10px;
+}
+
+#small-profile-picture img {
+    width: 200px;
+    border-radius: 100px;
 }
 
 #contact-section {
-    width:150px;
-    height: 250px;
-    background: brown;
+    /*width:140px;*/
+    /*background: brown;*/
+    color: #000;
+    padding: 5px;
+}
+
+#contact-section h3 {
+    color: dodgerblue;
+}
+
+#contact-section p {
+    font-weight: bold;
+}
+
+#contact-section a {
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+#contact-section a:hover {
+    text-decoration: underline;
 }
 
 #profile-section, #skills-section, #experience-section {
-    width: 550px;
-    height: 133px;
-    text-align: right;
+    width: 630px;
+}
+
+#experience-section h3 {
+    padding-top:20px;
+}
+
+#experience-section h3.accordion-header {
+    padding-top: 0;
+}
+
+#skills-section, #experience-section {
+    min-height: 133px;
 }
 
 #profile-section {
-    background: cornsilk;
+    /*background: cornsilk;*/
+}
+
+#profile-section h3 {
     text-align: center;
 }
 
+
 #skills-section {
-    background: chartreuse;
+    /*background: chartreuse;*/
 }
 
 #experience-section {
-    background: crimson;
+    /*background: aliceblue;*/
 }
 
 

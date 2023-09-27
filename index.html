@@ -2,25 +2,245 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bag Chasers Resume Template</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link href="css/styles.css" type="text/css" rel="stylesheet">
 </head>
 <body>
 <div id="wrapper">
-    <div id="main-large-picture">main large picture</div>
+    <div id="main-large-picture">
+        <img src="images/new-avatar.jpg" alt="Main picture goes here" title="Main picture goes here">
+    </div>
     <div id="main-section-wrapper">
-        <div id="resume-title">resume title</div>
+        <div id="resume-title">
+            <h1>Tech Coach Ralph</h1>
+            <h2>The Lead Senior QA Engineer & The Most Amazing Tech Coach Ever</h2>
+        </div>
         <div id="side-content">
-            <div id="small-profile-picture">small profile picture</div>
-            <div id="contact-section">Contact section</div>
+            <div id="small-profile-picture">
+                <img src="images/small-profile-picture.jpg" alt="Small profile picture" title="Small profile picture" />
+            </div>
+            <div id="contact-section">
+                <h3>Contact</h3>
+                <p>Phone:</p>
+                <a href="tel:(754) 800-4366" target="_blank">(754) 800-4366</a>
+                <p>Email:</p>
+                <a href="mailto:ralph@techcoachralph.com?subject=I want to hire you for a job today!">ralph@techcoachralph.com</a>
+                <p>LinkedIn:</p>
+                <a href="https://www.linkedin.com/in/ralphgehy" target="_blank">Tech Coach Ralph</a>
+                <h3>Social</h3>
+                <p>Website:</p>
+                <a href="https://www.techcoachralph.dev" target="_blank">Tech Coach Ralph</a>
+                <p>YouTube:</p>
+                <a href="https://www.youtube.com/@TechnicalCoachingWithRalph" target="_blank">Tech Coach Ralph</a>
+                <p>Instagram:</p>
+                <a href="https://instagram.com/techcoachralph" target="_blank">Tech Coach Ralph</a>
+                <p>Reddit:</p>
+                <a href="https://www.reddit.com/user/techcoachralph" target="_blank">Tech Coach Ralph</a>
+            </div>
         </div>
         <div id="main-content">
-            <div id="profile-section">profile section</div>
-            <div id="skills-section">skills section</div>
-            <div id="experience-section">jobs/projects/education section</div>
+            <div id="profile-section">
+                <h3>Highlights & Objectives</h3>
+                <p>I am a customer-driven, results-oriented Lead QA Engineer who is dedicated to contributing and enhancing the software development process. I specialize in taking complex testing situations and working through them to offer my team solutions to enhance our testing capabilities. I have engineered solutions to increase the speed of testing through various Selenium grids (AWS Device Farm, SauceLabs, BrowserStack) as well as built custom testing platforms via Docker images. In addition, I take great pleasure and pride contributing to tools to provide QA testing metrics to the organization. However, that does not take away from always having the heart, mind, and eye of the customer to understand requirements through their eyes and leave a strong QA fingerprint on the software development process by working with the developers early to understand the QA process to reduce the changes of bugs during development and go to market earlier and faster.</p>
+            </div>
+            <div id="skills-section">
+                <div class="accordion" id="skillsSummary">
+                <div class="accordion-item">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Skills Summary
+                        </button>
+                    </h3>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#skillsSummary">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>12 years of extensive experience in Testing and QA implementation Web based and Mobile applications.</li>
+                                <li>8 years of expert experience in using and testing APIs via SOAP and RESTful Services</li>
+                                <li>Experience with QA methodologies, Requirement analysis, writing test plans and test cases based on system requirement specifications.</li>
+                                <li>Experience in the healthcare/pharmaceutical industry for validating FDA regulated systems working within 21 CRF Part 11 compliance environments</li>
+                                <li>Excellent hands-on experience in handling the defects throughout the bug life cycle from detection until resolved</li>
+                                <li>Experience setting up AWS instances for cloud based testing environments</li>
+                                <li>Experience in Maven for building QA automation frameworks and running automated tests</li>
+                                <li>Experience in Python development connecting/creating APIs, data science/engineering, databases, and back-end development.</li>
+                                <li>Experience in designing/developing applications using Java and HTML. Thorough understanding of Software development life cycle.</li>
+                                <li>Experience in Docker to quickly setup different applications whether locally or in a cloud-based environment</li>
+                                <li>Experience in MySQL & MSSQL setup, configuration, commands and testing</li>
+                                <li>Experience in ETL development through the use of SSIS, SSMS, and Visual Studios</li>
+                                <li>Experience in transferring and staging data from and to different systems and environments</li>
+                                <li>Experience in Windows, Linux, OSX environments</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div id="experience-section">
+                <h3>Professional Experience</h3>
+                <div class="professional-experience">
+                    <div class="accordion" id="professionalExperienceOne">
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#professionalExperienceCollapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Lead IT Quality Assurance & Integration Engineer
+                                </button>
+                            </h3>
+                            <div id="professionalExperienceCollapseOne" class="accordion-collapse collapse show" data-bs-parent="#professionalExperienceOne">
+                                <div class="accordion-body">
+                                    <h5>TherapeuticsMD</h5>
+                                    <p>Boca Raton, Fl</p>
+                                    <p>04/2022 - 12/2022</p>
+                                    <ul>
+                                        <li>Built ETL process to extract data documents from Veeva Vault to load into Cornerstone LMS saving the company over $40k</li>
+                                        <li>Streamlined the transition from TikaMobile CRM to VeevaCRM on the Salesforce platform through the use of the Salesforce data loader and API</li>
+                                        <li>Built ETL processes that would deliver business analytics to the Business Intelligence vendor through the use of Powershell scripts and AWS S3 bucket uploads</li>
+                                        <li>Managed the company employee roster transformations of over 100 employees that ADP would provide via FTP upload and converted the files into the proper format for our Learning Management System, Expense System, and Contract Management System in order for employees to properly access those systems seamlessly.</li>
+                                        <li>Continued in the Senior IT Quality Assurance Engineer role listed below</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="professional-experience">
+                    <div class="accordion" id="professionalExperienceTwo">
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#professionalExperienceCollapseTwo" aria-expanded="true" aria-controls="collapseOne">
+                                    Senior IT Quality Assurance Engineer
+                                </button>
+                            </h3>
+                            <div id="professionalExperienceCollapseTwo" class="accordion-collapse collapse show" data-bs-parent="#professionalExperienceTwo">
+                                <div class="accordion-body">
+                                    <h5>TherapeuticsMD</h5>
+                                    <p>Boca Raton, Fl</p>
+                                    <p>09/2019 - 04/2022</p>
+                                    <ul>
+                                        <li>Lead QA automation for GxP validated systems of Veeva Vault, Veeva CRM, and Cornerstone LMS with over 150 automated tests</li>
+                                        <li>Designed and developed automation framework using Selenium Webdriver, Selenium Grid, Rest-Assured, TestNG, Appium, SauceLabs and Extent Reports to facilitate stability, re-usability, and commonality across different automation projects in order to maintain consistency and ensure all projects would get the newest features of the framework when released</li>
+                                        <li>Validated the triannual Veeva Vault releases running over 100 automated tests with custom automation framework mentioned above using API calls and Selenium web-based tests to ensure the upgrades/enhancements by Veeva Vault did not impact configurations GxP validation compliance that produced reports of each step taken as well as the results with screenshots</li>
+                                        <li>Worked closely with Business Analysts to reduce their manually testing efforts and day-to-day activities by 40% implementing automated solutions for repetitive testing and functions.</li>
+                                        <li>Implemented automated mobile testing creating a framework for Appium testing that connected to SauceLabs to test the VeevaCRM (built on Salesforce platform) application on an iPad to assure continuous functionality and FDA compliance.</li>
+                                        <li>Setup AWS Linux instance to host Docker in order to run Selenium Grid, Jenkins CI/CD, and Nexus repository to reduce the time of test execution as well as eliminate the dependency of running automated regressions on a localized machine</li>
+                                        <li>Automated testing of Cornerstone LMS (formerly SabaCloud) configuration by chaining 5-15 API calls to setup test data and configurations and creating Selenium 25 web-based tests for GxP validation compliance</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="professional-experience">
+                    <div class="accordion" id="professionalExperienceThree">
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#professionalExperienceCollapseThree" aria-expanded="true" aria-controls="collapseOne">
+                                    Senior Quality Assurance Engineer
+                                </button>
+                            </h3>
+                            <div id="professionalExperienceCollapseThree" class="accordion-collapse collapse show" data-bs-parent="#professionalExperienceThree">
+                                <div class="accordion-body">
+                                    <h5>3cinteractive</h5>
+                                    <p>Boca Raton, Fl</p>
+                                    <p>08/2016 - 09/2019</p>
+                                    <ul>
+                                        <li>Created demo for FC Barcelona Business-to-Customer workflow featured on Mobile World Congress in March 2019 to introduce RCS Chatbot technology that enhanced business marketing and communication capabilities</li>
+                                        <li>Lead the QA efforts on the development of the API  for Rich Communication Services (RCS messaging) for Business to Consumer messaging by creating and running over 1000 API tests for every code deployment by developers.</li>
+                                        <li>Lead the QA efforts on the development of the SaaS platform to build Business to Customer messaging workflows/conversations that were used by companies such as Express, FC Barcelona, by building over 50 automated test cases that logged screenshots and test results within the test case management system</li>
+                                        <li>Introduced methodology of loading feature branches in our AWS hosted development environments to run regression suites upon new code being committed to reduce the amount of bugs being introduced during development.</li>
+                                        <li>Lead the QA, deployment, and installation efforts of the productization of the RCS API and of the GUI front end that was sold as a product to external telecommunication companies in Japan (DoCoMo, KDDI, and SoftBank Mobile) in their AWS environments</li>
+                                        <li>Managed, mentored, encouraged off-shore QA Analysts/Testers by training them on best testing strategies, basics of DevOps and CI/CD, running automated tests, and staging test environments through Rancher, an open-source multi-cluster orchestration platform, that allowed operations teams deploy, manage and secure enterprise Kubernetes hosted on AWS servers.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h3>Projects</h3>
+                <div class="projects-experience">
+                    <div class="accordion" id="projectExperienceOne">
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#projectExperienceCollapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Time Cost Calculator
+                                </button>
+                            </h3>
+                            <div id="projectExperienceCollapseOne" class="accordion-collapse collapse show" data-bs-parent="#projectExperienceOne">
+                                <div class="accordion-body">
+                                    <h5>Github</h5>
+                                    <ul>
+                                        <li>Built ETL process to extract data documents from Veeva Vault to load into Cornerstone LMS saving the company over $40k</li>
+                                        <li>Streamlined the transition from TikaMobile CRM to VeevaCRM on the Salesforce platform through the use of the Salesforce data loader and API</li>
+                                        <li>Built ETL processes that would deliver business analytics to the Business Intelligence vendor through the use of Powershell scripts and AWS S3 bucket uploads</li>
+                                        <li>Managed the company employee roster transformations of over 100 employees that ADP would provide via FTP upload and converted the files into the proper format for our Learning Management System, Expense System, and Contract Management System in order for employees to properly access those systems seamlessly.</li>
+                                        <li>Continued in the Senior IT Quality Assurance Engineer role listed below</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-experience">
+                    <div class="accordion" id="projectExperienceTwo">
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#projectExperienceCollapseTwo" aria-expanded="true" aria-controls="collapseOne">
+                                    Terraform AWS Setup with Selenium Grid and M3U8 Parser
+                                </button>
+                            </h3>
+                            <div id="projectExperienceCollapseTwo" class="accordion-collapse collapse show" data-bs-parent="#projectExperienceTwo">
+                                <div class="accordion-body">
+                                    <h5>TherapeuticsMD</h5>
+                                    <p>Boca Raton, Fl</p>
+                                    <p>09/2019 - 04/2022</p>
+                                    <ul>
+                                        <li>Lead QA automation for GxP validated systems of Veeva Vault, Veeva CRM, and Cornerstone LMS with over 150 automated tests</li>
+                                        <li>Designed and developed automation framework using Selenium Webdriver, Selenium Grid, Rest-Assured, TestNG, Appium, SauceLabs and Extent Reports to facilitate stability, re-usability, and commonality across different automation projects in order to maintain consistency and ensure all projects would get the newest features of the framework when released</li>
+                                        <li>Validated the triannual Veeva Vault releases running over 100 automated tests with custom automation framework mentioned above using API calls and Selenium web-based tests to ensure the upgrades/enhancements by Veeva Vault did not impact configurations GxP validation compliance that produced reports of each step taken as well as the results with screenshots</li>
+                                        <li>Worked closely with Business Analysts to reduce their manually testing efforts and day-to-day activities by 40% implementing automated solutions for repetitive testing and functions.</li>
+                                        <li>Implemented automated mobile testing creating a framework for Appium testing that connected to SauceLabs to test the VeevaCRM (built on Salesforce platform) application on an iPad to assure continuous functionality and FDA compliance.</li>
+                                        <li>Setup AWS Linux instance to host Docker in order to run Selenium Grid, Jenkins CI/CD, and Nexus repository to reduce the time of test execution as well as eliminate the dependency of running automated regressions on a localized machine</li>
+                                        <li>Automated testing of Cornerstone LMS (formerly SabaCloud) configuration by chaining 5-15 API calls to setup test data and configurations and creating Selenium 25 web-based tests for GxP validation compliance</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="project-experience">
+                    <div class="accordion" id="projectExperienceThree">
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#projectExperienceCollapseThree" aria-expanded="true" aria-controls="collapseOne">
+                                    Selenium-Wire Airflow Integration
+                                </button>
+                            </h3>
+                            <div id="projectExperienceCollapseThree" class="accordion-collapse collapse show" data-bs-parent="#projectExperienceThree">
+                                <div class="accordion-body">
+                                    <h5>3cinteractive</h5>
+                                    <p>Boca Raton, Fl</p>
+                                    <p>08/2016 - 09/2019</p>
+                                    <ul>
+                                        <li>Created demo for FC Barcelona Business-to-Customer workflow featured on Mobile World Congress in March 2019 to introduce RCS Chatbot technology that enhanced business marketing and communication capabilities</li>
+                                        <li>Lead the QA efforts on the development of the API  for Rich Communication Services (RCS messaging) for Business to Consumer messaging by creating and running over 1000 API tests for every code deployment by developers.</li>
+                                        <li>Lead the QA efforts on the development of the SaaS platform to build Business to Customer messaging workflows/conversations that were used by companies such as Express, FC Barcelona, by building over 50 automated test cases that logged screenshots and test results within the test case management system</li>
+                                        <li>Introduced methodology of loading feature branches in our AWS hosted development environments to run regression suites upon new code being committed to reduce the amount of bugs being introduced during development.</li>
+                                        <li>Lead the QA, deployment, and installation efforts of the productization of the RCS API and of the GUI front end that was sold as a product to external telecommunication companies in Japan (DoCoMo, KDDI, and SoftBank Mobile) in their AWS environments</li>
+                                        <li>Managed, mentored, encouraged off-shore QA Analysts/Testers by training them on best testing strategies, basics of DevOps and CI/CD, running automated tests, and staging test environments through Rancher, an open-source multi-cluster orchestration platform, that allowed operations teams deploy, manage and secure enterprise Kubernetes hosted on AWS servers.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h3>Education</h3>
+            </div>
         </div>
     </div>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
 
