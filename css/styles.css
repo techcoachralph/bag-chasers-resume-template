@@ -5,19 +5,20 @@ body {
 
 #wrapper {
     margin: 0 auto;
-    background: green;
-    width:1500px;
+    /*background: green;*/
+    width:1400px;
+    display: flex;
 }
 
 #main-large-picture {
-    width: 600px;
+    width: 500px;
     float:right;
-    height: 500px;
     background: aqua;
+    clear: both;
 }
 
 #main-large-picture img {
-  width:600px;
+  width:500px;
 }
 
 #resume-title {
@@ -39,13 +40,32 @@ body {
 }
 
 #side-content {
-    width:240px;
+    width:320px;
     float:left;
-    background: lightgray;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.flyer-track{
+    flex: 1 0 auto;
+}
+
+.flyer{
+    position: sticky;
+    top: 2vh;
+}
+
+
+#main-content-wrapper {
+    width: 1080px;
+    float:left;
 }
 
 #main-content {
-    width: 630px;
+    /*width: 630px;*/
+    width: 100%;
     float:left;
     /*background: darkkhaki;*/
     min-height:400px;
@@ -87,8 +107,14 @@ body {
     text-decoration: underline;
 }
 
-#profile-section, #skills-section, #experience-section {
-    width: 630px;
+#profile-section {
+    width: 530px;
+    float:left;
+    margin:15px;
+}
+
+#skills-section, #experience-section {
+    width: 100%;
 }
 
 #experience-section h3 {
@@ -120,4 +146,135 @@ body {
     /*background: aliceblue;*/
 }
 
+.clear {
+    clear: both;
+}
 
+
+/* Skills bar */
+#codeconSkills {
+    font-size: 20px;
+    height: auto;
+    color: white;
+}
+.codeconSkillbar {
+    height: 50px;
+    position: relative;
+    background: rgba(17, 17, 17, .3);
+    margin: 20px auto;
+}
+
+#codeconJava, #codeconSelenium, #codeconApi {
+    padding:10px;
+}
+
+/* java bar */
+#codeconJava {
+    width: 75%;
+    animation: Animate-HTML 4s;
+    -webkit-animation: Animate-HTML 4s;
+    -moz-animation: Animate-HTML 4s;
+    -o-animation: Animate-HTML 4s;
+    height: 50px;
+    position: absolute;
+    background-color: #ea8564;
+}
+@keyframes Animate-HTML {
+    from {
+        width: 30%;
+    }
+    to {
+        width: 75%}
+}@-webkit-keyframes Animate-HTML {
+     from {
+         width: 30%;
+     }
+     to {
+         width: 75%}
+ }@-moz-keyframes Animate-HTML {
+      from {
+          width: 30%;
+      }
+      to {
+          width: 75%}
+  }@-o-keyframes Animate-HTML {
+       from {
+           width: 30%;
+       }
+       to {
+           width: 75%}
+   }
+
+/* selenium bar */
+#codeconSelenium {
+    width: 90%;
+    animation: Animate-HTML 4s;
+    -webkit-animation: Animate-HTML 4s;
+    -moz-animation: Animate-HTML 4s;
+    -o-animation: Animate-HTML 4s;
+    height: 50px;
+    position: absolute;
+    background-color: dodgerblue;
+}
+@keyframes Animate-HTML {
+    from {
+        width: 30%;
+    }
+    to {
+        width: 90%}
+}@-webkit-keyframes Animate-HTML {
+     from {
+         width: 30%;
+     }
+     to {
+         width: 90%}
+ }@-moz-keyframes Animate-HTML {
+      from {
+          width: 30%;
+      }
+      to {
+          width: 90%}
+  }@-o-keyframes Animate-HTML {
+       from {
+           width: 30%;
+       }
+       to {
+           width: 90%}
+   }
+
+/* api bar */
+#codeconApi {
+    width: 85%;
+    animation: Animate-HTML 4s;
+    -webkit-animation: Animate-HTML 4s;
+    -moz-animation: Animate-HTML 4s;
+    -o-animation: Animate-HTML 4s;
+    height: 50px;
+    position: absolute;
+    background-color: blueviolet;
+}
+@keyframes Animate-HTML {
+    from {
+        width: 30%;
+    }
+    to {
+        width: 85%}
+}@-webkit-keyframes Animate-HTML {
+     from {
+         width: 30%;
+     }
+     to {
+         width: 85%}
+ }@-moz-keyframes Animate-HTML {
+      from {
+          width: 30%;
+      }
+      to {
+          width: 85%}
+  }@-o-keyframes Animate-HTML {
+       from {
+           width: 30%;
+       }
+       to {
+           width: 85%}
+   }
